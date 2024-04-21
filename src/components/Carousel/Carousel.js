@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import Benz from '../../assets/aboutcar.png'
 import BMW from '../../assets/heroimage.png'
 import Convertible from '../../assets/Convertible.png'
+import Chevy from '../../assets/Chevy.webp'
 
  const CarouselData = [
      {
@@ -22,6 +23,12 @@ import Convertible from '../../assets/Convertible.png'
         name: "Convertible",
         price: "330,999",
         img: Convertible
+    },
+     {
+        id:4,
+        name: "Chevrolet",
+        price: "190,999",
+        img: Chevy
     },
  ]
 
