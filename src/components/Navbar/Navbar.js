@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../../assets/carlogo.webp'
 import { FaBars } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -17,9 +18,9 @@ function Navbar() {
         <div className='container'>
             <div className='flex justify-between items-center'>
                 <div data-aos="fade=down" data-aos-once="true">
-                    <a href='/'>
-                    <img src={Logo} className='w-36 h-30'/>
-                    </a>
+                    <Link to='/'>
+                    <img src={Logo} className='w-36 h-30' alt='logo'/>
+                    </Link>
                 </div>
                 <div data-aos="fade=down" data-aos-once="true" data-aos-delay="300" className='hidden lg:flex justify-between items-center gap-4'>
                     <ul className='hidden lg:flex justify-between items-center gap-4'>

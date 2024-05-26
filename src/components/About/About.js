@@ -7,7 +7,7 @@ function About() {
       <div className='container '>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
             <div data-aos="zoom-in">
-                <img className='min-h-[350px] flex justify-center items-center relative order-1 sm:order-2 px-6' src={Car}/>
+                <img className='min-h-[350px] flex justify-center items-center relative order-1 sm:order-2 px-6' src={Car} alt='car'/>
             </div>
             <div className='flex flex-col space-y-4 px-6'>
                 <p data-aos="fade-up" className='text-dark text-extrabold text-xl'>ABOUT</p>

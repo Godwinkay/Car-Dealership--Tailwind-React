@@ -9,7 +9,7 @@ function Footer() {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-28'>
             <div className='flex flex-col space-y-5 justify-center'>
                 <div>
-                    <img src={Logo} className='w-20 mx-auto'/>
+                    <img src={Logo} className='w-20 mx-auto' alt='car'/>
                 </div>
                 <div className='space-y-3 text-center'>
                     <h3 className='font-cursive text-2xl text-primary'>Your Car Guy</h3>
